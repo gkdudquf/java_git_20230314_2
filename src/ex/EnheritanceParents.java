@@ -39,7 +39,7 @@ package ex;
 		}
 		public static void main(String[] args) {
 			//
-//			EnheritanceParents c1 = new EnheritanceChild1();
+			EnheritanceParents c1 = new EnheritanceChild1();
 			EnheritanceParents c2 = new EnheritanceChild2();
 			c1.setNumber(30, 20);
 			c2.setNumber(30, 20);
