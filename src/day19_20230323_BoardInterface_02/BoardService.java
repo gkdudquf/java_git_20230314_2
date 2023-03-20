@@ -41,7 +41,7 @@ public class BoardService {
 	// list 사용시
 	public void findAll() {
 		@SuppressWarnings("unchecked")
-		List<BoardDTO> list = (List<BoardDTO>) br.findAll();
+		List<BoardDTO> list = (List<BoardDTO>) br.findAll(); //object를 list로 형변환
 		System.out.println("글번호\t제목\t\t작성자\t조회수\t게시일");
 		System.out.println("--------------------------------------");
 		for (BoardDTO b : list) {
